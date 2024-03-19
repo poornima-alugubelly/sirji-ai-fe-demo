@@ -27,7 +27,7 @@ export const Workspace = () => {
   };
   return (
     <div className="bg-grayBgDark border border-grayBgLight   w-1/2 rounded-md py-4 px-6">
-      <h3 className="text-2xl font-bold"> Sirji's Workspace</h3>
+      <h3 className="text-2xl font-bold">{`Sirji's Workspace`}</h3>
       <div className="flex mt-4">
         {tabs.map((tab) => {
           return (
